@@ -1,0 +1,42 @@
+.card{
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.card_top{
+    display: flex;
+    gap: .3rem;
+}
+
+.card_top_labels{
+    flex: 1;
+    display: flex;
+    gap: .6rem;
+}
+
+.card_title{
+    font-weight: bold;
+}
+
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card_footer p{
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+}
+
+.card_footer svg{
+    height: 1rem;
+    width: 1rem;
+}
