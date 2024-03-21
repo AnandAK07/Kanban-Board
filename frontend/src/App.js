@@ -25,13 +25,24 @@ function App() {
           title: "Project A",
           tasks: [],
           labels: [{
-            text: "backend",
-            color: "blue"
+            text: "frontent",
+            color: "skyblue"
           }],
           decs: "baeeen beoi iee",
           date: ""
         },
-        
+        {
+          id: Date.now() + Math.random(),
+          title: "Project A",
+          tasks: [],
+          labels: [{
+            text: "backend",
+            color: "yellow"
+          }],
+          decs: "baeeen beoi iee",
+          date: ""
+        },
+
       ]
     },
     {
@@ -44,7 +55,7 @@ function App() {
           tasks: [],
           labels: [{
             text: "frontent",
-            color: "blue"
+            color: "gray"
           }],
           decs: "baeeen beoi iee",
           date: ""
@@ -55,7 +66,7 @@ function App() {
           tasks: [],
           labels: [{
             text: "backend",
-            color: "blue"
+            color: "pink"
           }],
           decs: "baeeen beoi iee",
           date: ""
@@ -69,11 +80,23 @@ function App() {
       cards: [
         {
           id: Date.now() + Math.random(),
-          title:"Project C",
+          title: "Project C",
           tasks: [],
           labels: [{
             text: "frontent",
-            color: "blue"
+            color: "black"
+          }],
+          decs: "baeeen beoi iee",
+          date: ""
+        },
+
+        {
+          id: Date.now() + Math.random(),
+          title: "Project D",
+          tasks: [],
+          labels: [{
+            text: "backend",
+            color: "yellow"
           }],
           decs: "baeeen beoi iee",
           date: ""
@@ -84,12 +107,11 @@ function App() {
           tasks: [],
           labels: [{
             text: "backend",
-            color: "blue"
+            color: "skyblue"
           }],
           decs: "baeeen beoi iee",
           date: ""
         },
-
       ]
     },
     {
@@ -102,7 +124,7 @@ function App() {
           tasks: [],
           labels: [{
             text: "frontent",
-            color: "blue"
+            color: "green"
           }],
           decs: "baeeen beoi iee",
           date: ""
@@ -113,7 +135,7 @@ function App() {
           tasks: [],
           labels: [{
             text: "backend",
-            color: "blue"
+            color: "red"
           }],
           decs: "baeeen beoi iee",
           date: ""
@@ -159,7 +181,7 @@ function App() {
   }
 
   const removeBoard = (bid) => {
-    const tempBoard=boards.filter(item=>item.id!==bid);
+    const tempBoard = boards.filter(item => item.id !== bid);
     setBoards(tempBoard)
   }
 

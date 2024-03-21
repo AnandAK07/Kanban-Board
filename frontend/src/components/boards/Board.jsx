@@ -7,9 +7,6 @@ import Dropdown from '../dropdown/Dropdown'
 
 const Board = (props) => {
     const [showDropdown, setShowDropdown] = useState(false)
-
-
-
     console.log(showDropdown)
     return (
         <div className='board'>

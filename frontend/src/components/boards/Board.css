@@ -1,13 +1,17 @@
 .board{
-    min-width: 18rem;
+    min-width: 20rem;
     max-height: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
+    border-radius: 0.5rem;
+    background-color: #f0f2f5;
+    padding: 1rem;
 }
 
 .board_top{
+    border-radius: 0.5rem;
     display: flex;
 }
 .board_top_more{
@@ -16,6 +20,7 @@
 
 .board_dropdown{
     background-color: #fff;
+    border-radius: 0.5rem;
     width: 130px;
     padding: 10px;
     border-radius: .2rem;
