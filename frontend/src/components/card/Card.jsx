@@ -21,7 +21,7 @@ const Card = (props) => {
             </div>
             <div className="card_footer">
                 <p><AlignLeft />{props.card.date}</p>
-                <p><MessageCircle /></p>
+                <p><MessageCircle />2</p>
             </div>
         </div>
     )

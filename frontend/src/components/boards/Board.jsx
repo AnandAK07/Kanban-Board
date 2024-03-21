@@ -11,7 +11,9 @@ const Board = (props) => {
     return (
         <div className='board'>
             <div className='board_top'>
-                <p className='board_top_title'>{props.board?.title}<span>{` ${props.board?.cards?.length}`}</span></p>
+                <p className='board_top_title'>{props.board?.title}
+                {/* <span>{` ${props.board?.cards?.length}`}</span> */}
+                </p>
                 <div className="board_top_more" onClick={()=>setShowDropdown(true)}>
                         <MoreHorizontal />
                     {showDropdown && (
