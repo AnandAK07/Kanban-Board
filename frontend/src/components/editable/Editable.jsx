@@ -5,6 +5,7 @@ import {X} from 'react-feather'
 
 const Editable = (props) => {
     const [showEdit,setShowEdit]=useState(false);
+    
   return (
     <div className='editable'>
           {showEdit?
